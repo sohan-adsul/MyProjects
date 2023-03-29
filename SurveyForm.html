@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="SurveyForm.css" />
+  </head>
+  <body>
+    <section class="heading">
+      <div id="image">
+        <img id="img1" src="facebook-share.png" alt="Logo" />
+      </div>
+      <h1>Premier League Survey Form</h1>
+    </section>
+
+    <form action="">
+      <div class="details">
+        <div id="name">
+          <label for="label-name">Name</label>
+          <input type="text" required />
+        </div>
+        <br />
+
+        <div id="email">
+          <label for="label-email">Email</label>
+          <input type="email" required />
+        </div>
+        <br />
+
+        <div id="age">
+          <label for="label-age">Age</label>
+          <input type="number" required />
+        </div>
+      </div>
+
+      <section class="questionaire">
+        <p class="question"><mark>Lets get started!</p>
+
+        <p class="question"><mark>Q1.Messi or Ronaldo?</p>
+
+        <input type="radio" name="Q1" />
+        <label for="">Messi</label>
+        <input type="radio" name="Q1" />
+        <label for="">Ronaldo</label>
+
+        <p class="question"><mark>Q2.Which club do you support?</p>
+
+        <select name="club" id="footy">
+          <option value="1">Arsenal</option>
+          <option value="2">AFC Bourmemouth</option>
+          <option value="3">Aston Villa</option>
+          <option value="4">Brentford</option>
+          <option value="5">Brighton & Hove Albion</option>
+          <option value="6">Chelsea</option>
+          <option value="7">Crystal Palace</option>
+          <option value="8">Everton</option>
+          <option value="9">Fulham</option>
+          <option value="10">Leeds United</option>
+          <option value="11">Leicester City</option>
+          <option value="12">Leeds United</option>
+          <option value="13">Liverpool</option>
+          <option value="14">Manchester City</option>
+          <option value="15">Manchester United</option>
+          <option value="16">Nottingham Forest</option>
+          <option value="17">Southamtpon</option>
+          <option value="18">Spurs</option>
+          <option value="19">West Ham United</option>
+          <option value="10">Wolverhampton Wanderers</option>
+        </select>
+
+        <p class="question"><mark>Q3.As a fan,what comes first,club or player?</p>
+
+        <input type="radio" name="Q1" />
+        <label for="">Club</label>
+        <input type="radio" name="Q1" />
+        <label for="">Player</label>
+
+        <p class="question"><mark>Q4.How many years have you supported your team?</p>
+
+        <input type="number" maxlength="2" />
+
+        <p class="question">
+          <mark>Q5.How emotionally are you attached to your club?
+        </p>
+
+        <input type="radio" name="emotion" />
+        <label for="">My club is my world,it's like my own child</label>
+        <br />
+        <input type="radio" name="emotion" />
+        <label for="">I love my club</label>
+        <br />
+        <input type="radio" name="emotion" />
+        <label for="">Normal</label>
+        <br />
+        <input type="radio" name="emotion" />
+        <label for="">Well,I am just a fan</label>
+        <br />
+        <input type="radio" name="emotion" />
+        <label for="">Eh,not really one with the emotions</label>
+
+        <p class="question">
+          <mark>Q6.Who's your all time favourite in your club's history?
+        </p>
+
+        <input type="text" />
+
+        <p class="question"><mark>Q7.What made you fall in love with your club?</p>
+
+        <textarea name="" id="" cols="40" rows="10"></textarea>
+
+        <p class="question">
+          <mark>Q8.Would you rather win the Champions League or your respective
+          domestic league?
+        </p>
+
+        <input type="radio" /><label for="">Champions League</label>
+        <input type="radio" /><label for="">Domestic League</label>
+
+        <p class="question">
+          <mark>Q9.If your club is in debt,would you take Middle-Eastern owners?
+        </p>
+
+        <input type="radio" name="ME" /><label>Yes</label>
+        <input type="radio" name="ME" /><label>No</label>
+
+        <p class="question">
+          <mark>Q10.Do you think your club is well run?If so ,why,if not,why not.
+        </p>
+
+        <input type="radio" name="run" />
+        <label for="">Yes</label>
+
+        <input type="radio" name="run" />
+        <label for="">No</label>
+        <br />
+
+        <textarea
+          name="TextArea"
+          id="text-area"
+          cols="40"
+          rows="10"
+          required
+        ></textarea>
+
+        <p class="question">
+          <mark>Q11.Do you think the players are being looked after enough?
+        </p>
+        <input type="radio" name="health" id="" />
+        <label for="">Yes</label>
+        <input type="radio" name="health" id="" />
+        <label for="">No</label>
+
+        <p class="question"><mark>Q12.What is your club's main source of revenue?</p>
+        <input type="radio" name="rev" /><label for=""
+          >Commercial(Sponsorships,Retail Merchandising,Apparel & Product
+          Licensing)</label
+        >
+        <br />
+        <input type="radio" name="rev" /><label for="">Matchday</label>
+        <br />
+        <input type="radio" name="rev" /><label for="">Broadcasting</label>
+
+        <p class="question">
+          <mark>Q13.Are you interested in the economics of your club?
+        </p>
+        <input type="radio" name="eco" /><label for="">Yes,absolutely!</label>
+        <input type="radio" name="eco" /><label for="">Yes</label>
+        <input type="radio" name="eco" /><label for="">Maybe,Maybe Not</label>
+        <input type="radio" name="eco" /><label for="">No</label>
+        <input type="radio" name="eco" /><label for="">Absolutely not</label>
+
+        <p class="question"><mark>Q14.Which other major leagues interest you?</p>
+        <input type="checkbox" /><label for="">La Liga</label>
+        <input type="checkbox" /><label for="">Serie A</label>
+        <input type="checkbox" /><label for="">Bundesliga</label>
+        <input type="checkbox" /><label for="">Ligue 1</label>
+        <input type="checkbox" /><label for="">Liga NOS</label>
+        <input type="checkbox" /><label for="">Eredevisie</label>
+        <input type="checkbox" /><label for="">MLS</label>
+        <input type="checkbox" /><label for="">ISL</label>
+        <input type="checkbox" /><label for="">Brasileiro Serie A</label>
+      </section>
+
+      <p id="submit"><button>Submit</button></p>
+    </form>
+
+    <div id="official">
+      <p id="ack">
+        Thank you for reaching the end of this,here's the Premier League's
+        official website for more information.
+      </p>
+      <br>
+      <p>🫴<a href="https://www.premierleague.com/home" target="_blank"
+        >www.premierleague.com</a
+      ></p>
+     
+    </div>
+  </body>
+</html>
